@@ -206,17 +206,17 @@
     </div>
 
     <form action="https://formsubmit.co/Bourrizmohamed@iav.ac.ma" method="post">
-        <label><input type="text" placeholder="name" class="box" required ></label>
-        <label><input type="email" placeholder="email" class="box" required></label>
-        <label><input type="text" placeholder="objet" class="box"required></label>
-        <select name="Continent" class="box" required>
+        <label for="name"><input type="text" placeholder="name" class="box" value="" id="name" required ></label>
+        <label for="email"><input type="email" placeholder="email" class="box" value="" id="email" required></label>
+        <label for="text"><input type="text" placeholder="objet" class="box" value="" id="text"required></label>
+        <select name="Continent" class="box" id="choix" required>
         <option> Africa </option>
         <option> Asia </option>
         <option> Europe </option>
         <option> North America </option>
         <option> South America</option>
         </select>
-        <label><textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message" required ></textarea></label>
+        <label for="bio"><textarea name="" id="bio" cols="30" rows="10" class="box message" placeholder="message" value="" required ></textarea></label>
         <button type="submit" class="btn"> Envoyer <i class="fas fa-paper-plane"></i> </button>
 
     </form>
