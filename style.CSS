@@ -276,6 +276,14 @@ header .navbar ul li a:hover{
     background:var(--blue);
 }
 
+.education .box-container .box  a{
+color: white;
+}
+
+.education .box-container .box a:hover{
+    color: blue
+}
+
 .Expérience .box-container{
     display: flex;
     align-items: center;
@@ -326,6 +334,13 @@ header .navbar ul li a:hover{
     background:var(--blue);
 }
 
+.Expérience .box-container .box a{
+    color: white
+}
+
+.Expérience .box-container .box a:hover{
+    color: blue
+}
 
 .contact .row{
     display: flex;
@@ -387,7 +402,13 @@ header .navbar ul li a:hover{
     color:var(--blue);
 }
 
+.contact .heading .row .content .title .info h3 a{
+    color: white
+}
 
+.contact .heading .row .content .title .info h3 a:hover{
+    color: blue
+}
 
 .top{
     position: fixed;
@@ -395,6 +416,9 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
+
+
+
 
 /* media queries  */
 
